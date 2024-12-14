@@ -1,0 +1,32 @@
+{
+  "components": {
+    "Button": {
+      "description": "A reusable button component for user actions.",
+      "props": {
+        "label": "string",
+        "onClick": "function"
+      }
+    },
+    "ImageUploader": {
+      "description": "A component for uploading images with a preview.",
+      "props": {
+        "onFileChange": "function",
+        "previewImage": "string"
+      }
+    },
+    "ProcessedImageViewer": {
+      "description": "A component to display the processed image after background removal.",
+      "props": {
+        "imageUrl": "string"
+      }
+    },
+    "Header": {
+      "description": "A header component with the app title and navigation.",
+      "props": {}
+    },
+    "Footer": {
+      "description": "A footer component with copyright information.",
+      "props": {}
+    }
+  }
+}
